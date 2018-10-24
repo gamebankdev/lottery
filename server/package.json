@@ -1,0 +1,28 @@
+{
+  "name": "api",
+  "version": "0.0.2",
+  "description": "gamestar的api转发策略",
+  "main": "index.js",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "config": "^2.0.1",
+    "gamebank": "^0.1.5",
+    "koa": "^2.5.2",
+    "koa-body": "^4.0.4",
+    "koa-router": "^7.4.0",
+    "koa2-cors": "^2.0.6"
+  },
+  "devDependencies": {
+    "cross-env": "^5.2.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "cross-env NODE_ENV=development node index",
+    "start": "cross-env NODE_ENV=production node index"
+  },
+  "keywords": [
+    "gamestar"
+  ],
+  "author": "dryx",
+  "license": "ISC"
+}
